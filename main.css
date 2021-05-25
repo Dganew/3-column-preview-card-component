@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body{
+    margin: 0em;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca'  
+}
+
+.container ul a{
+    background-color: white;
+    padding: 0.9em 2.2em;     
+    text-decoration: none;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+.container1 ul a{
+    color: hsl(31, 77%, 52%);
+}
+.container2 ul a{
+    color: hsl(184, 100%, 22%);
+}
+.container3 ul a{
+    color: hsl(179, 100%, 13%);
+}
+
+.container{ 
+    margin: 5em; 
+    padding: 0em;
+
+
+        
+   
+}
+
+.container ul p{
+    font-family: 'Big Shoulders Display';
+    color: white;
+    font-size: 3em;
+}
+
+.container ul li{
+    list-style-type: none;
+    text-align: left;
+    line-height: 2em;
+    word-spacing: 0.2em;
+    padding-right: 2em;
+    padding-bottom: 2.5em;
+}
+
+
+
+ 
+.container1 ul a:hover{
+    transition-duration: 0.4s;
+    background-color:hsl(31, 77%, 52%);
+    color:white;
+}
+.container2 ul a:hover{
+    transition-duration: 0.4s;
+    background-color:hsl(184, 100%, 22%);
+    color:white;
+}
+.container3 ul a:hover{
+    transition-duration: 0.4s;
+    background-color:hsl(179, 100%, 13%);
+    color:white;
+}
+
+.container ul img{
+    width: 25%;
+    height: auto;
+}
+
+.container1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.5em 2em;  
+    border: hidden;
+    border-radius: 30px 30px 0  0 ;
+       
+    
+  
+    
+}
+
+
+
+.container2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.5em 2em;
+   
+  
+}
+
+.container3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.5em 2em;
+    border: hidden;
+    border-radius: 0  0 30px 30px;
+}
+
+
+@media only screen and (min-width:800px){
+    .container {
+        position: fixed;
+        width: fit-content;
+        display: flex;  
+    }
+
+    .container1 {
+        
+        border: hidden;
+        border-radius: 30px  0  0 30px;
+    }
+
+    .container3{
+        border: hidden;
+        border-radius: 0px 30px 30px 0 ;
+    }
+}
+
+
